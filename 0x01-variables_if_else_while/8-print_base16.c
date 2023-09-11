@@ -6,10 +6,15 @@
  */
 int main(void)
 {
-char hex_digits[] = "0123456789abcdef";
-for (int i = 0; i < 16; i++)
+int n;
+int i;
+for (i = 48; i <= 57; i++)
 {
-	putchar(hex_digits[i]);
+	putchar(i);
+}
+for (n = 97; n <= 102; n++)
+{
+	putchar(n);
 }
 putchar('\n');
 return (0);

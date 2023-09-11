@@ -1,10 +1,9 @@
 #include <stdio.h>
 /**
  * main- Entry point
- * Description: print all the numbers of base 16
+ * Description: print all the numbers of base sixteen
  * Return: 0 (success)
  */
-
 int main(void)
 {
 char hex_digits[] = "0123456789abcdef";
